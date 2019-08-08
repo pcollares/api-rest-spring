@@ -1,0 +1,7 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}www.paulocollares.com.br
+<#if licenseLast??>
+${licenseLast}
+</#if>
