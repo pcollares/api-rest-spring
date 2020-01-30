@@ -121,7 +121,7 @@ public class ProdutoController {
         }
     }
 
-    @ApiOperation(value = "Atualiza um Rastreador Equipamento")
+    @ApiOperation(value = "Atualiza um produto")
     @PutMapping(value = "/{id}")
     public ResponseEntity<Produto> atualizar(@PathVariable("id") int id, @RequestBody ProdutoDTO dto) {
         try {
